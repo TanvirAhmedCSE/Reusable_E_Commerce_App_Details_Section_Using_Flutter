@@ -1,16 +1,13 @@
-# e_commerce_app_details_screen
+# Reusable E Commerce App Details Section Using Flutter
 
-A new Flutter project.
+## Some specialities:
 
-## Getting Started
+#### Dynamic & Reusable Detail Screen: FoodDetailScreen is fully parameter-driven. Just pass any FoodItem data or FoodDetailScreen data (through main.dart) and it works instantly.
 
-This project is a starting point for a Flutter application.
+#### Reusable Image Widget: buildFoodImage() handles both asset and network images. Includes a loading indicator and error fallback icon.
 
-A few resources to get you started if this is your first Flutter project:
+#### Interactive Portion Counter & Spicy Slider: Changing the portion updates the total price in real time. Custom PillThumbShape and ShadowedTrackShape make the spicy slider visually polished.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### Clean Data Model: FoodItem class keeps data separate from UI. Makes the project structured and easy to scale.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Clean Grid Navigation: Tapping any card navigates to its detail screen with all data passed correctly.
